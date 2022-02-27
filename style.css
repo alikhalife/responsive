@@ -1,0 +1,31 @@
+.red-bg {
+    background-color: rgb(247, 4, 4);
+    max-width: 300px;
+}
+
+.green-bg {
+    background-color: green;
+    max-width: 768px;
+}
+
+.blue-bg {
+    background-color: blue;
+    min-width: 768px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: rgb(230, 111, 102);
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: greenyellow;
+    }
+}
