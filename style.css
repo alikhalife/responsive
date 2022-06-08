@@ -1,3 +1,7 @@
+.light-red-bg {
+    background-color: rgb(230, 111, 102);
+}
+
 .red-bg {
     background-color: rgb(247, 4, 4);
     max-width: 300px;
@@ -13,6 +17,8 @@
     min-width: 768px;
 }
 
+
+
 @media only screen and (min-width: 768px) {
     body {
       background-color: lightblue;
@@ -24,8 +30,9 @@
       background-color: rgb(230, 111, 102);
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 300px) {
     body {
         background-color: greenyellow;
     }
 }
+
